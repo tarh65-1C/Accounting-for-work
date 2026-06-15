@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30d0af21-6b01-48b5-bbe9-7a55a6e16571">
+  <producedTypes>
+    <selectionType typeId="b2ca3b81-a0ee-4b1f-b1ab-d479d27357f0" valueTypeId="8c017fc4-af35-47f1-95e6-015f43f70f04"/>
+    <listType typeId="3b1f4906-9341-4ed4-add0-f0b95021ac83" valueTypeId="fd13050a-bbf3-4655-8ee7-b4c7cb72a4e8"/>
+    <managerType typeId="b510da4b-ab59-453e-af46-1db08273131d" valueTypeId="9563621c-339b-4a4b-85c1-e6c88f31f12f"/>
+    <recordSetType typeId="f31cefaa-bcf9-44fd-bf9c-735e63adbb7a" valueTypeId="c8e0163a-95b0-4da2-80ff-300421c780ca"/>
+    <recordKeyType typeId="52808123-a224-42ea-a33c-10fde719fe22" valueTypeId="4c0ff243-7ef1-4138-a2f8-7f2559acfb9f"/>
+    <recordType typeId="226ede6a-9525-46a8-8118-b661b6ec8048" valueTypeId="093a5aa7-a2bf-4a53-985b-f1ea4c7ad2c2"/>
+  </producedTypes>
+  <name>ПредварительныйОборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предварительный оборот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2f232248-656e-46c0-bdde-02ddb35d28bf">
+    <name>ПредварительнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="567cac0b-345d-4343-b536-dbf61288efd7">
+    <name>Работы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c59a8e44-9f72-4b4a-ab8e-b4539ab00940">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

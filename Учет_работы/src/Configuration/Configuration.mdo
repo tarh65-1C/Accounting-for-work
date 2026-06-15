@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2a551e7-0251-4824-b0ed-b5fc043076fd">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d6df0ccd-958a-4a7e-8826-a45b2bcc8e8d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8c6ba72a-e253-427a-a6b1-e785ea07d1c7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5cd94344-7456-428a-9c70-9a89da8983b4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b1586fea-4e2b-46de-bc0b-9499cf588dc9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0a91987e-304d-41a5-8843-8c542c803475"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="bf7c9e20-078e-450d-a07b-15f30f1d19d2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="cd01367e-81b8-435e-8adf-8b62a4f606d0"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.Стиль1</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="39174600-16de-43f8-baf2-11f937a88c18">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styles>Style.Стиль1</styles>
+  <catalogs>Catalog.ВидыРабот</catalogs>
+  <catalogs>Catalog.Заказчики</catalogs>
+  <documents>Document.ВыполнениеРабот</documents>
+  <reports>Report.ДеньгиПолученные</reports>
+  <reports>Report.ДеньгиПредварительно</reports>
+  <accumulationRegisters>AccumulationRegister.ДенежныйОборот</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПредварительныйОборот</accumulationRegisters>
+</mdclass:Configuration>

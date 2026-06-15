@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08440fa9-0e0a-4925-8dfc-57a6709865de">
+  <producedTypes>
+    <objectType typeId="9c62c1cd-65b2-41fe-886e-e64928a5d0ee" valueTypeId="fc915b44-0b4c-4247-b13d-994156dccfed"/>
+    <managerType typeId="66a67c16-6236-4636-8b21-f781eddc67c0" valueTypeId="2b2cea52-25e9-426a-bad5-89326e063f20"/>
+  </producedTypes>
+  <name>ДеньгиПолученные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги полученные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДеньгиПолученные.Form.ФормаОтчета</defaultForm>
+  <forms uuid="6a22c525-a9b7-4d64-901f-711715d9f8dd">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4324459c-f65f-4a5d-9a2e-d92688135f94">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

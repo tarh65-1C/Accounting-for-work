@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="786cab86-7a74-4f0b-a6f1-c18aff44be91">
+  <producedTypes>
+    <objectType typeId="7f4ff329-391f-4209-a877-80c54cc38714" valueTypeId="3aedbd6f-f190-4fe6-b646-13e9d3d3e7f8"/>
+    <refType typeId="9d496451-8474-48a3-9181-9018d33b6e34" valueTypeId="6a353c58-7169-4fb7-a348-b383442dbd02"/>
+    <selectionType typeId="aaad6a18-7a2d-4805-9722-0d942d951c13" valueTypeId="80f509e9-5e8d-44e4-ab6e-025854bb0b7e"/>
+    <listType typeId="d1c5d59e-e97a-4210-a721-b53d40b7dba0" valueTypeId="32d4015c-ccc7-42fd-bede-aaff19178313"/>
+    <managerType typeId="a2682f15-faf7-4c2f-9a05-e760f977837f" valueTypeId="1660c3ef-243b-49e0-991c-6ebb57f9fc65"/>
+  </producedTypes>
+  <name>ВидыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыРабот.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыРабот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

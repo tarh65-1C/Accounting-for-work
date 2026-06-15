@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b53594db-95b7-48f7-9ce7-08d41e9aacb3">
+  <producedTypes>
+    <selectionType typeId="6f44a295-5a3f-47e7-9ec7-6f210dcbd438" valueTypeId="ecc7b306-c3d2-40c2-86bb-f4a9fba33a80"/>
+    <listType typeId="f8ace063-450d-4d55-90f4-f7b7b44a7e41" valueTypeId="ddd4cacc-ebab-4beb-86d2-8b4a420cc5e7"/>
+    <managerType typeId="6d7098c1-2028-4c49-a8f0-fa2e98c057cf" valueTypeId="c1b6de34-34c0-44af-9a2d-2ff38800dcbc"/>
+    <recordSetType typeId="a488c530-7816-4467-bc2b-a97835256f3a" valueTypeId="6363b08b-59da-4d79-ac91-b26350d53643"/>
+    <recordKeyType typeId="a39e5eb4-8b1c-41c9-8c92-2eed77986f48" valueTypeId="56395fb8-03be-48f6-8c66-8ae2f6375b73"/>
+    <recordType typeId="c88f9613-6300-414a-8067-4ce3cdaadf12" valueTypeId="0b03a552-46e9-4163-8f8c-ee548ed77432"/>
+  </producedTypes>
+  <name>ДенежныйОборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежный оборот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9d8e23bb-63a7-4e0d-9b92-54af70f539df">
+    <name>ОплаченнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплаченная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="8ec80eb4-f30c-4245-afb4-aa7ebb0d9f4a">
+    <name>Работы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="548d3a0d-3eea-4e90-bf1b-b58a1162c6b3">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9cb957e1-6910-433e-8477-3285753da718">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
