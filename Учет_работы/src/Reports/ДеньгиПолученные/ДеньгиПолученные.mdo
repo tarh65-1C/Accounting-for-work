@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08440fa9-0e0a-4925-8dfc-57a6709865de">
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08440fa9-0e0a-4925-8dfc-57a6709865de">
   <producedTypes>
     <objectType typeId="9c62c1cd-65b2-41fe-886e-e64928a5d0ee" valueTypeId="fc915b44-0b4c-4247-b13d-994156dccfed"/>
     <managerType typeId="66a67c16-6236-4636-8b21-f781eddc67c0" valueTypeId="2b2cea52-25e9-426a-bad5-89326e063f20"/>
@@ -11,6 +11,45 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ДеньгиПолученные.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="e80a61ed-4f51-4ec2-9e35-1f82b16a1d0d">
+    <name>ЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>За период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a51ec87a-3ea5-4515-ad67-1206fad1ea29">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e815eaa0-374d-4eac-8744-93f5f496ce07">
+    <name>работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="6a22c525-a9b7-4d64-901f-711715d9f8dd">
     <name>ФормаОтчета</name>
     <synonym>
