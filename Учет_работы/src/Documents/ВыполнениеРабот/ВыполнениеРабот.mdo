@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыполнениеРабот.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ПредварительныйОборот</registerRecords>
   <registerRecords>AccumulationRegister.ДенежныйОборот</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -146,4 +147,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="ec0a9824-3784-4d94-b2bd-8c28cc509fe4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
